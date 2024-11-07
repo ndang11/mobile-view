@@ -7,6 +7,7 @@
 
 body{
     
+    
 
 }
 
@@ -20,13 +21,12 @@ body{
 }
 
 
-
 .logo{
     display: flex;
-    background-color: rgb(34, 32, 196);
+    background-color: rgb(32, 196, 54);
     height: 10vh;
     mix-blend-mode: multiply;
-    margin-right: -70%;
+    
 }
 
 
@@ -49,9 +49,8 @@ body{
 .field{
     display: flex;
     gap: 3%;
-    border-right: 20px;
     border: 1px solid;
-    width: 45%;
+    width: 50px;
 
 }
 
@@ -67,14 +66,22 @@ body{
     margin-top: -100px;
     background-color: white;
     border: 1px solid;
+    border-radius: 5%;
 }
 
 
 .float{
-    border-radius: 50px;
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
+    border-radius: 500%;
+    height: fit-content;
+    object-fit: contain;  
+}
+
+.float img {
+    height: 30%;
+    width: 30%;
+    border-radius: 60px;
+    float: right;
+    margin-top: -20px;
 }
 
 
@@ -82,24 +89,35 @@ section{
     justify-content: center;
 }
 
-
-.head{
-    color: red;
+.starting{
+    margin-top: 20%;
+    h1 {
+        color: brown;
+    }
 }
+
 
 
 .submite{
     margin-bottom: -50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 15%;
+    margin-bottom: -150%;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+    background-color: rgba(211, 247, 54, 0.5);
+    justify-content: center;
+    
 }
+
+
 
 
 .sub1{
     box-shadow: 0 1px 1px;
     display: flex;
-    
+    opacity: 0.5;
 }
 
 .sub2{
@@ -134,6 +152,13 @@ section{
 
 }
 
+.photo img {
+    height: 300%;
+    width: 100%;
+    margin-top: 20%;
+    
+}
+
 
 main{
 
@@ -144,6 +169,9 @@ main{
     background-color: rgb(203, 189, 216);
     margin-bottom: 15px;
     margin-top: 10px;
+    h1 {
+        text-align: center;
+    }
 
 }
 
@@ -152,12 +180,52 @@ main{
     box-shadow: 0 4px 4px;
     background-color: white;
     border-radius: 8px;
+    margin-bottom: 5%;
+
     
 }
+
+.small{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.small img {
+   border-radius: 50%;
+   height: 80px;
+   width: 80px;
+}
+
+
+.box1 img {
+    width: 100%;
+    height: 150%;
+}
+
+
+
 .box2{
     box-shadow: 0 4px 4px;
     background-color: white;
     border-radius: 8px;
+}
+.box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.medium{
+    display: flex;
+}
+
+.medium img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
 
 .box3{
@@ -165,6 +233,25 @@ main{
     background-color: white;
     border-radius: 8px;
 }
+
+
+.large{
+    display: flex;
+}
+
+
+.large img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  
+}
+
+
+.box3 img{
+    width: 100%;
+}
+   
 
 
 article{
@@ -185,4 +272,25 @@ article{
 .more-img{
     height: ;
     width: ;
+}
+
+
+footer{
+    background-color: rgb(150, 120, 120);
+    color: white;
+}
+
+
+.last-logo{
+width: 100%;
+height: 50%;
+mix-blend-mode: multiply;
+align-content: center;
+}
+.icons{
+    align-content: center;
+    display: flex;
+    height: 50px;
+    gap: 2%;
+    mix-blend-mode: multiply;
 }
