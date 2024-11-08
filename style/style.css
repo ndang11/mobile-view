@@ -1,0 +1,300 @@
+@media (max-width: 600px) {
+  body {
+    width: fit-content;
+  }
+}
+
+body {
+  width: fit-content;
+}
+
+header {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.logo {
+  display: flex;
+  height: 20vh;
+  width: 20%;
+  mix-blend-mode: multiply;
+}
+
+.text {
+  text-align: left;
+  background-image: url(/images/background.webp);
+  margin-bottom: 2%;
+  background-size: cover;
+  color: rgb(133, 10, 30);
+  height: 300px;
+}
+
+.field {
+  display: flex;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container {
+  box-shadow: 0 4px 4px;
+  justify-content: center;
+  text-align: center;
+  margin-top: -30px;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 300px;
+  margin-top: -100px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+.float {
+  border-radius: 50%;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.float img {
+  height: 30%;
+  width: 30%;
+  border-radius: 60px;
+  float: right;
+  margin-top: -15px;
+}
+
+section {
+  justify-content: center;
+}
+
+.starting {
+  margin-top: 20%;
+  h1 {
+    color: brown;
+  }
+  text-align: center;
+  gap: 5rem;
+}
+
+.submite {
+  border-radius: 5% solid;
+  gap: 5rem;
+  justify-content: center;
+  box-shadow: 0 1px 1px;
+  margin-bottom: -900px;
+  margin-top: 10%;
+  font-size: 20px;
+  background-blend-mode: lighten;
+  opacity: 0.5;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.sub1 {
+  box-shadow: 0 1px 1px;
+  display: flex;
+  gap: 1rem;
+  mix-blend-mode: multiply;
+  color: black;
+  border-radius: 5% solid;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.sub2 {
+  box-shadow: 0 1px 1px;
+  display: flex;
+  gap: 1rem;
+  mix-blend-mode: multiply;
+  color: rgb(252, 248, 248);
+  border-radius: 5% solid;
+  background-color: black;
+}
+
+.sub3 {
+  box-shadow: 0 1px 1px;
+  display: flex;
+  gap: 1rem;
+  mix-blend-mode: multiply;
+  color: black;
+  border-radius: 5% solid;
+  background-color: white;
+}
+
+.sub4 {
+  box-shadow: 0 1px 1px;
+  display: flex;
+  gap: 10%;
+  mix-blend-mode: multiply;
+  color: rgb(252, 248, 248);
+  border-radius: 5% solid;
+  background-color: black;
+}
+
+.sub5 {
+  box-shadow: 0 1px 1px;
+  display: flex;
+  gap: 1rem;
+  mix-blend-mode: multiply;
+  color: black;
+  border-radius: 5% solid;
+  background-color: white;
+}
+
+.photo {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  height: -100px;
+  width: -100px;
+}
+
+.photo img {
+  height: 300%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+main {
+    display: block;
+}
+
+.status {
+  background-color: rgb(203, 189, 216);
+  margin-bottom: 15px;
+  margin-top: 10px;
+  h1 {
+    text-align: center;
+  }
+}
+
+.box1 {
+  box-shadow: 0 4px 4px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.small {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 10%;
+  h5 {
+    display: flex;
+  }
+}
+
+.small img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.box1 img {
+  width: 100%;
+  height: 150%;
+}
+
+.box2 {
+  box-shadow: 0 4px 4px;
+  background-color: white;
+  border-radius: 8px;
+}
+.box2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.medium {
+  display: flex;
+}
+
+.medium img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.box3 {
+  box-shadow: 0 4px 4px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 5%;
+}
+
+.large {
+  display: flex;
+}
+
+.large img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.box3 img {
+  width: 100%;
+}
+
+article {
+  margin-top: 40%;
+  margin-bottom: 50%;
+}
+
+.contact {
+  box-shadow: 0 4px 4px;
+  border-radius: 8px;
+  text-align: center;
+  h1,
+  h2 {
+    color: brown;
+  }
+  margin-bottom: -300%;
+  margin-top: 80%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.more-img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 80%;
+  margin-top: 160%;
+}
+
+.more-img img {
+  mix-blend-mode: difference;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(150, 120, 120);
+  color: white;
+  h4 {
+    text-align: center;
+  }
+}
+
+.last-logo {
+  width: 100%;
+  height: 50%;
+  mix-blend-mode: multiply;
+  align-content: center;
+  margin-bottom: 5px;
+}
+
+.icons {
+  display: flex;
+  height: 55px;
+  gap: 2%;
+  mix-blend-mode: multiply;
+}
+
+.mini {
+  text-align: center;
+  color: chartreuse;
+}
