@@ -40,7 +40,6 @@ header {
   box-shadow: 0 4px 4px;
   justify-content: center;
   text-align: center;
-  /* margin-top: -30px; */
   margin-right: 15px;
   margin-left: 15px;
   height: 300px;
@@ -84,7 +83,7 @@ section {
   gap: 5rem;
   justify-content: center;
   box-shadow: 0 1px 1px;
-  margin: 10% 5% -900px 5%;
+  margin: 10% 5% -900px;
   font-size: 20px;
   background-blend-mode: lighten;
   opacity: 0.5;
@@ -136,9 +135,9 @@ section {
   display: flex;
   gap: 1rem;
   mix-blend-mode: multiply;
-  color: #000000;
+  color: #000;
   border-radius: 5% solid;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .photo {
@@ -256,7 +255,7 @@ article {
     color: brown;
   }
 
-  margin: 80% 3% -300% 3%;
+  margin: 80% 3% -300%;
 }
 
 .more-img {
