@@ -173,6 +173,7 @@ main {
   border-radius: 8px;
   margin-bottom: 5%;
   margin-top: 10%;
+  padding: 10px;
 }
 
 .small {
@@ -181,16 +182,21 @@ main {
   display: flex;
   font-size: 20px;
   margin-bottom: 10%;
+  gap: 10px;
+}
 
-  h5 {
+.para {
     display: flex;
-  }
+    gap: 20px;
+
+    p {
+        width: 80px;
+    }
 }
 
 .small img {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
+width: 100px;
+height: 60px;
 }
 
 .box1 img {
@@ -231,9 +237,10 @@ main {
 }
 
 .large img {
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
+height: 60px;
+width: 20vw;
+margin-top: 4px;
+
 }
 
 .box3 img {
@@ -249,6 +256,7 @@ article {
   box-shadow: 0 4px 4px;
   border-radius: 8px;
   text-align: center;
+  padding: 10px;
 
   h1,
   h2 {
@@ -274,6 +282,7 @@ article {
 footer {
   background-color: #967878;
   color: white;
+  padding: 10px;
 
   h4 {
     text-align: center;
