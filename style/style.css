@@ -22,10 +22,10 @@ header {
 
 .text {
   text-align: left;
-  background-image: url(/images/background.webp);
+  background-image: url("/images/background.webp");
   margin-bottom: 2%;
   background-size: cover;
-  color: rgb(133, 10, 30);
+  color: #850a1e;
   height: 300px;
 }
 
@@ -40,7 +40,7 @@ header {
   box-shadow: 0 4px 4px;
   justify-content: center;
   text-align: center;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   margin-right: 15px;
   margin-left: 15px;
   height: 300px;
@@ -70,9 +70,11 @@ section {
 
 .starting {
   margin-top: 20%;
+
   h1 {
     color: brown;
   }
+
   text-align: center;
   gap: 5rem;
 }
@@ -82,13 +84,10 @@ section {
   gap: 5rem;
   justify-content: center;
   box-shadow: 0 1px 1px;
-  margin-bottom: -900px;
-  margin-top: 10%;
+  margin: 10% 5% -900px 5%;
   font-size: 20px;
   background-blend-mode: lighten;
   opacity: 0.5;
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 .sub1 {
@@ -107,7 +106,7 @@ section {
   display: flex;
   gap: 1rem;
   mix-blend-mode: multiply;
-  color: rgb(252, 248, 248);
+  color: #fcf8f8;
   border-radius: 5% solid;
   background-color: black;
 }
@@ -127,7 +126,7 @@ section {
   display: flex;
   gap: 10%;
   mix-blend-mode: multiply;
-  color: rgb(252, 248, 248);
+  color: #fcf8f8;
   border-radius: 5% solid;
   background-color: black;
 }
@@ -137,9 +136,9 @@ section {
   display: flex;
   gap: 1rem;
   mix-blend-mode: multiply;
-  color: black;
+  color: #000000;
   border-radius: 5% solid;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .photo {
@@ -160,9 +159,10 @@ main {
 }
 
 .status {
-  background-color: rgb(203, 189, 216);
+  background-color: #cbbdd8;
   margin-bottom: 15px;
   margin-top: 10px;
+
   h1 {
     text-align: center;
   }
@@ -182,6 +182,7 @@ main {
   display: flex;
   font-size: 20px;
   margin-bottom: 10%;
+
   h5 {
     display: flex;
   }
@@ -203,6 +204,7 @@ main {
   background-color: white;
   border-radius: 8px;
 }
+
 .box2 img {
   height: 100%;
   width: 100%;
@@ -248,14 +250,13 @@ article {
   box-shadow: 0 4px 4px;
   border-radius: 8px;
   text-align: center;
+
   h1,
   h2 {
     color: brown;
   }
-  margin-bottom: -300%;
-  margin-top: 80%;
-  margin-left: 3%;
-  margin-right: 3%;
+
+  margin: 80% 3% -300% 3%;
 }
 
 .more-img {
@@ -272,8 +273,9 @@ article {
 }
 
 footer {
-  background-color: rgb(150, 120, 120);
+  background-color: #967878;
   color: white;
+
   h4 {
     text-align: center;
   }
