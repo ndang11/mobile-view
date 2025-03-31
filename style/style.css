@@ -186,17 +186,17 @@ main {
 }
 
 .para {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 
     p {
         width: 80px;
-    }
+  }
 }
 
 .small img {
-width: 100px;
-height: 60px;
+    width: 100px;
+    height: 60px;
 }
 
 .box1 img {
@@ -237,11 +237,9 @@ height: 60px;
 }
 
 .large img {
-height: 60px;
-width: 20vw;
-margin-top: 4px;
-
-}
+    height: 60px;
+    margin-top: 4px;
+  }
 
 .box3 img {
   width: 100%;
